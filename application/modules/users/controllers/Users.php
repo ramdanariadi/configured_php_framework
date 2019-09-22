@@ -9,10 +9,10 @@ class Users extends MX_Controller
 
     function index()
     {
-        $data['title'] = 'index | users';
-        $data['content'] = 'daftar list users akses';
-        $page = 'users/v_show';
-        echo modules::run('template/loadview', $data, $page);
+        echo 'test';
+        if($this->ion_auth->logged_in()){
+            
+        }
     }
 }
 ?>
