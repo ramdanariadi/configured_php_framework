@@ -1,5 +1,5 @@
 <?php 
-class Users extends MX_Controller
+class Users extends MY_Controller
 {
     
     function __construct()
